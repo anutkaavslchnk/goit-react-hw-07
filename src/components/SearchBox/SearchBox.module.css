@@ -1,0 +1,32 @@
+.form{
+    display:flex;
+    flex-direction: column;
+}
+.input{
+    width: 327px;
+    height: 30px;
+
+    border-radius: 12px;
+    background: rgb(254, 254, 254);
+   padding:8px 8px 8px 15px;
+    box-shadow: 4px 4px 6px 1px rgb(0 0 0 / 0.1), 4px 2px 4px 2px rgb(0 0 0 / 0.1);
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+
+
+    font-family: 'Nunito', 'sens-serif';
+}
+.input:placeholder-shown{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: rgb(223, 222, 222);
+
+    font-family: 'Nunito', 'sens-serif';
+}
